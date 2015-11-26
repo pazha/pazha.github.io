@@ -1,8 +1,8 @@
 ﻿
 ---
 layout: post
-title: 存在感
-description: 存在感对于每个人的生活有多么的重要，可能平时并不是太关注，其实他就是生活的全部
+title: Markdown快速入门简要教程
+description: Markdown是当今最流行最简洁最高效的文本标记语言
 category: blog
 ---
 
@@ -191,3 +191,5 @@ Suspendisse id sem consectetuer libero luctus adipiscing.
 |Markdown简体中文版                            |[http://www.appinn.com/markdown/](http://www.appinn.com/markdown// "简体")|
 
 * 水平有限，难免有错。收获颇多，特别感谢伍燎。
+
+[Pazha]:    http://inslow.com  "Pazha"

@@ -97,8 +97,8 @@ void main()
 * 在强调内容两侧加上'\*'和'\**'分别表示斜体和加粗，以此用来强调。如：
 > \*我是斜体\* <br/>
 > \*\*我是粗体\*\*
-* 效果如下：
 
+* 效果如下：
 > *我是斜体* <br/>
 > **我是粗体** 
 
@@ -141,15 +141,10 @@ Suspendisse id sem consectetuer libero luctus adipiscing.
 ### ⑦ 分割线
 * 分割线最常使用就是三个或以上`*`即可。如：
 
-> \*\*\* <br/>
-> \*\*\*\* <br/>
-> \*\*\*\*\* <br/>
+> \*\*\* 
 
 效果如下：
-> *** <br/>
-> *** <br/>
-> *** <br/>
-
+> ***
 ### ⑧ 链接
 * 链接的语法非常简单格式是\[需要连接的文字\](URL) ，如：
 
@@ -159,11 +154,9 @@ Suspendisse id sem consectetuer libero luctus adipiscing.
 
 ### ⑨ 图片
 * 添加图片的形式和链接相似，只需在链接的基础上前方加一个`！`。如：
-> \![Markdown创始人](http://ww1.sinaimg.cn/mw690/9325ea4dgw1eyfvjpjyc2j20hs0oodhq.jpg)
-
+> \!\[Markdown创始人\](http://ww1.sinaimg.cn/mw690/9325ea4dgw1eyfvjpjyc2j20hs0oodhq.jpg)
 效果如下：
 > ![Markdown创始人](http://ww1.sinaimg.cn/mw690/9325ea4dgw1eyfvjpjyc2j20hs0oodhq.jpg)  
-
 ### ⑩ 反斜杠和符号
 #### 反斜杠
 * 相当于C语言里**反转义**作用，使符号成为普通符号。如：

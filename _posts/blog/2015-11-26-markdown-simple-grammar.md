@@ -15,7 +15,7 @@ description: Markdown是当今最流行最简洁最高效的文本标记语言
 总结起来就是：Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法使普通文本内容具有一定的格式。
 
 ### 谁发明了这个东西？
-它由[**Aaron Swartz**](http://www.aaronsw.com/)和**John Gruber**共同设计，**Aaron Swartz**就是那位于前几年（_2013年1月11日_）自杀,有着**开挂**一般人生经历的程序员。维基百科对他的[介绍](https://zh.wikipedia.org/wiki/%E4%BA%9A%E4%BC%A6%C2%B7%E6%96%AF%E6%B2%83%E8%8C%A8)（上面有他照片）是：**软件工程师、作家、政治组织者、互联网活动家、维基百科人**。    
+它由[**Aaron Swartz**](http://www.aaronsw.com/)和**John Gruber**共同设计，**Aaron Swartz**就是那位于前几年（_2013年1月11日_）自杀,有着**开挂**一般人生经历的程序员。维基百科对他的[介绍](https://zh.wikipedia.org/wiki/%E4%BA%9A%E4%BC%A6%C2%B7%E6%96%AF%E6%B2%83%E8%8C%A8)是：**软件工程师、作家、政治组织者、互联网活动家、维基百科人**。    
 
 他有着本可以靠脸吃饭却足以让你跪拜的人生经历：    
 + **14岁**参与RSS 1.0规格标准的制订。     
@@ -23,13 +23,13 @@ description: Markdown是当今最流行最简洁最高效的文本标记语言
 + **2005**年创建[Infogami](http://infogami.org/)，之后与[Reddit](http://www.reddit.com/)合并成为其合伙人。   
 + **2010**年创立求进会（Demand Progress），积极参与禁止网络盗版法案（SOPA）活动，最终该提案**居然**被撤回。   
 + **2011**年7月19日，因被控从MIT和JSTOR下载480万篇学术论文并以免费形式上传于网络被捕。     
-+ **2013**年1月自杀身亡。（天妒英才）    
++ **2013**年1月自杀身亡（天妒英才）。    
 
 ### 怎么使用Markdown？
 #### 一点点说明
 * 由于这是入门级的简要教程，所以涉及到如有两种或多种方法可以达到同样效果的情况，本文只分享一种。
 * 详细的语法说明：**Markdown 语法详细说明 ([简体中文版](http://www.appinn.com/markdown/)|[繁体中文版](http://markdown.tw/))**
-* 本文按一下顺序分享Markdown常用功能
+* 本文按一下顺序分享Markdown常用功能 <br/>
 **① 标题** <br/>
 **② 段落** <br/>
 **③ 区块引用** <br/>
@@ -43,6 +43,7 @@ description: Markdown是当今最流行最简洁最高效的文本标记语言
 *****************************************************************
 ### ① 标题
 * 标题的设置非常简单，直接使用'#'且'#'的个数直接可表示1-6级标题。
+
 > \# 我爱Markdown  
 > \## 我爱Markdown    
 > \### 我爱Markdown    
@@ -51,6 +52,7 @@ description: Markdown是当今最流行最简洁最高效的文本标记语言
 > \###### 我爱Markdown     
 
 * 效果如下：
+
 > # 我爱Markdown    
 > ## 我爱Markdown    
 > ### 我爱Markdown   
@@ -94,10 +96,11 @@ void main()
 
 ### ⑤ 强调
 * 在强调内容两侧加上'\*'和'\**'分别表示斜体和加粗，以此用来强调。如：
-> \*我是斜体\* 
+> \*我是斜体\* <br/>
 > \*\*我是粗体\*\*
 * 效果如下：
-> *我是斜体* 
+
+> *我是斜体* <br/>
 > **我是粗体** 
 
 ### ⑥ 列表
@@ -121,9 +124,10 @@ viverra nec, fringilla in, laoreet vitae, risus.
 Suspendisse id sem consectetuer libero luctus adipiscing.
 
 * 有序列表的标记方式是将上述的符号换成数字,并辅以`.`，如：
-> 1.  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
-viverra nec, fringilla in, laoreet vitae, risus.2.  Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
+> 1.  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aliquam 
+hendrerit mi posuere lectus. Vestibulum enim wisi,viverra nec, fringilla in,
+laoreet vitae, risus. 
+> 2.  Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
 Suspendisse id sem consectetuer libero luctus adipiscing.    
 
 效果如下：
@@ -138,19 +142,20 @@ Suspendisse id sem consectetuer libero luctus adipiscing.
 ### ⑦ 分割线
 * 分割线最常使用就是三个或以上`*`即可。如：
 
-> \*\*\*
-> \*\*\*\*
-> \*\*\*\*\*
+> \*\*\* <br/>
+> \*\*\*\* <br/>
+> \*\*\*\*\* <br/>
 
 效果如下：
-> ***
-> ***
-> ***
+> *** <br/><br/>
+> *** <br/><br/>
+> *** <br/><br/>
 
 ### ⑧ 链接
-* 链接的语法非常简单格式是'[需要连接的文字](URL)' ，如：
+* 链接的语法非常简单格式是\[需要连接的文字\](URL) ，如：
 
-> \[Markdown创始人](https://zh.wikipedia.org/wiki/%E4%BA%9A%E4%BC%A6%C2%B7%E6%96%AF%E6%B2%83%E8%8C%A8)
+> \[Markdown创始人](https://zh.wikipedia.org/ <br/>
+> \wiki/%E4%BA%9A%E4%BC%A6%C2%B7%E6%96%AF%E6%B2%83%E8%8C%A8)
 效果如下：
 > [Markdown创始人](https://zh.wikipedia.org/wiki/%E4%BA%9A%E4%BC%A6%C2%B7%E6%96%AF%E6%B2%83%E8%8C%A8)
 
@@ -188,4 +193,4 @@ Suspendisse id sem consectetuer libero luctus adipiscing.
 |Markdown繁体中文版                            |[https://markdown.tw/](http://markdown.tw/ "繁体")|
 |Markdown简体中文版                            |[http://www.appinn.com/markdown/](http://www.appinn.com/markdown// "简体")|
 
-* 水平有限，难免有错。收获颇多，特别感谢[伍燎] (http://wuliao.in)。
+* 水平有限，难免有错。收获颇多，特别感谢[伍燎](http://wuliao.in)。

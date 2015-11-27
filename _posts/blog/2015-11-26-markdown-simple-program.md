@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Markdown快速入门简要教程
@@ -191,5 +190,3 @@ Suspendisse id sem consectetuer libero luctus adipiscing.
 |Markdown简体中文版                            |[http://www.appinn.com/markdown/](http://www.appinn.com/markdown// "简体")|
 
 * 水平有限，难免有错。收获颇多，特别感谢伍燎。
-
-[Pazha]:    http://inslow.com  "Pazha"

@@ -52,8 +52,7 @@ description: Markdown是当今最流行最简洁最高效的文本标记语言
 > \###### 我爱Markdown     
 
 * 效果如下：
-
-> # 我爱Markdown    
+   
 > ## 我爱Markdown    
 > ### 我爱Markdown   
 > #### 我爱Markdown    
@@ -147,25 +146,23 @@ Suspendisse id sem consectetuer libero luctus adipiscing.
 > \*\*\*\*\* <br/>
 
 效果如下：
-> *** <br/><br/>
-> *** <br/><br/>
-> *** <br/><br/>
+> *** <br/>
+> *** <br/>
+> *** <br/>
 
 ### ⑧ 链接
 * 链接的语法非常简单格式是\[需要连接的文字\](URL) ，如：
 
-> \[Markdown创始人](https://zh.wikipedia.org/ <br/>
-> \wiki/%E4%BA%9A%E4%BC%A6%C2%B7%E6%96%AF%E6%B2%83%E8%8C%A8)
+> \[Markdown创始人](https://zh.wikipedia.org/wiki/%E4%BA%9A%E4%BC%A6%C2%B7%E6%96%AF%E6%B2%83%E8%8C%A8)
 效果如下：
 > [Markdown创始人](https://zh.wikipedia.org/wiki/%E4%BA%9A%E4%BC%A6%C2%B7%E6%96%AF%E6%B2%83%E8%8C%A8)
 
 ### ⑨ 图片
 * 添加图片的形式和链接相似，只需在链接的基础上前方加一个`！`。如：
-> \![Markdown创始人]
-(https://github.com/younghz/Markdown/raw/master/Res/Aaron_Swartz.jpg)
+> \![Markdown创始人](http://ww1.sinaimg.cn/mw690/9325ea4dgw1eyfvjpjyc2j20hs0oodhq.jpg)
 
 效果如下：
-> ![Markdown创始人](https://github.com/younghz/Markdown/raw/master/Res/Aaron_Swartz.jpg)  
+> ![Markdown创始人](http://ww1.sinaimg.cn/mw690/9325ea4dgw1eyfvjpjyc2j20hs0oodhq.jpg)  
 
 ### ⑩ 反斜杠和符号
 #### 反斜杠

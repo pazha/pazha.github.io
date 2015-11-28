@@ -52,7 +52,7 @@ description: Markdown是当今最流行最简洁最高效的文本标记语言
 > \###### 我爱Markdown     
 
 * 效果如下：
-   
+# 我爱Markdown 
 > ## 我爱Markdown    
 > ### 我爱Markdown   
 > #### 我爱Markdown    
@@ -99,8 +99,8 @@ void main()
 > \*\*我是粗体\*\*
 
 * 效果如下：
-> *我是斜体* <br/>
-> **我是粗体** 
+*我是斜体*
+**我是粗体**
 
 ### ⑥ 列表
 * Markdown 支持有序列表和无序列表。
@@ -144,7 +144,8 @@ Suspendisse id sem consectetuer libero luctus adipiscing.
 > \*\*\* 
 
 效果如下：
-> *** <br/>
+****
+
 ### ⑧ 链接
 * 链接的语法非常简单格式是\[需要连接的文字\](URL) ，如：
 

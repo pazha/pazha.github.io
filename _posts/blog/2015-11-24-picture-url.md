@@ -21,11 +21,12 @@ description: 分享两款免费好用的图片外链服务平台
 对于几乎所有的程序员来说都有Github账号，所以在这里创建图片外链是非常方便的。
 
 * 把需要创建外链的图片上传到自己的Github上去
-* 在浏览器里复制该图片的URL地址插入到博客文章合适的地方去。比如下面这张：
+* 然后进入到浏览当前照片的网页，在图片上右键就会出现“复制图片地址”，这个地址便是次图片的外链URL。然后将此地址插入到博客文章合适的位置。比如下面这张：
 
-\![图片外链]\(https://github.com/pazha/Picturl_URL/yuan.jpg)
+\![外链图片]\(https://github.com/pazha/pazha.github.io/blob/master/images/yuan.jpg?raw=true)
 
-![图片外链](https://github.com/pazha/pazha.github.io/blob/master/images/yuan.jpg)
+![外链图片](https://github.com/pazha/pazha.github.io/blob/master/images/yuan.jpg?raw=true)
+
 
 **微博相册**
 

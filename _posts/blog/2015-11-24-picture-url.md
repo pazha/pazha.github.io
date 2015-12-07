@@ -2,7 +2,7 @@
 layout: post
 title: 免费实用的图片外链
 category: blog
-description: 分享两款免费好用的图片外链
+description: 分享两款免费好用的图片外链服务平台
 ---
 
 **关于图片外链**
@@ -23,9 +23,9 @@ description: 分享两款免费好用的图片外链
 * 把需要创建外链的图片上传到自己的Github上去
 * 在浏览器里复制该图片的URL地址插入到博客文章合适的地方去。比如下面这张：
 
-\![图片外链]\(https://github.com/pazha/pazha.github.io/blob/master/images/github.png)
+\![图片外链]\(https://github.com/pazha/Picturl_URL/yuan.jpg)
 
-![图片外链](https://github.com/pazha/pazha.github.io/blob/master/images/github.png)
+![图片外链](https://github.com/pazha/Picturl_URL/yuan.jpg)
 
 **微博相册**
 

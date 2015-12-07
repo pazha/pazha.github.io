@@ -25,7 +25,7 @@ description: 分享两款免费好用的图片外链服务平台
 
 \![图片外链]\(https://github.com/pazha/Picturl_URL/yuan.jpg)
 
-![图片外链](https://github.com/pazha/Picturl_URL/yuan.jpg)
+![图片外链](https://github.com/pazha/pazha.github.io/blob/master/images/yuan.jpg)
 
 **微博相册**
 

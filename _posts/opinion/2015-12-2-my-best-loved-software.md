@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 分享一些我喜欢的软件
+title: 分享一些个人喜欢的软件
 category: opinion
 description: 记录一些自己在工作学习生活方面高效有益的优秀软件（长期更新）
 ---

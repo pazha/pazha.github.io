@@ -19,24 +19,6 @@ layout: default
         <p class="entry-date">{{ page.date|date:"%Y-%m-%d" }}</p>
         {{ content }}
     </div>
-
-	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="inslow.com/{{ page.url }}"></div>
-        <!-- 多说评论框 end -->
-        <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-    <script type="text/javascript">
-    var duoshuoQuery = {short_name:"inslow"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0] 
-		 || document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	</script>
-        <!-- 多说公共JS代码 end -->
-	
 	
     <div class="sidenav">
         <iframe width="100%" height="75" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=0&noborder=0&isWeibo=0&isFans=0&uid=2468735565&verifier=0e41f547&colors=d6f3f7,ffffff,666666,ed1c24,ecfbfd&dpc=1"></iframe>
@@ -63,6 +45,24 @@ layout: default
             <li><a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
         </ul>
+		
+			<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="inslow.com/{{ page.url }}"></div>
+        <!-- 多说评论框 end -->
+        <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:"inslow"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+        <!-- 多说公共JS代码 end -->
+		
 	</div>
 	
 		

@@ -35,8 +35,8 @@ description: 分享两款免费好用的图片外链服务平台
 * 在自己的微博相册专辑里创建一个新的相册，比如叫“外链相册”，专门用来存放外链图片的地方。
 * 上传自己需要创建外链的图片，然后进入到浏览当前照片的网页，在图片上右键就会出现“复制图片地址”，这个地址便是次图片的外链URL。
 
-\![外链图片]\(http://ww4.sinaimg.cn/mw690/9325ea4dgw1eyrdir6pujj20hv0icdgq.jpg)
-![外链图片](http://ww4.sinaimg.cn/mw690/9325ea4dgw1eyrdir6pujj20hv0icdgq.jpg)
+\![外链图片]\(http://ww2.sinaimg.cn/mw690/9325ea4dgw1f25p13nq6zj20hv0icdgq.jpg)
+![外链图片](http://ww2.sinaimg.cn/mw690/9325ea4dgw1f25p13nq6zj20hv0icdgq.jpg)
 
 **总结**
 

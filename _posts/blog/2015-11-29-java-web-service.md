@@ -32,7 +32,7 @@ description: 关于Linux+Tomcat+MySQL+Java的Web服务环境搭建
 然后启动Tomcat服务：
 
     service tomcat6 start 
-访问http://localhost:8080/如果出现不了以下网页，说明是防火墙策略问题，[请参考](http://inslow.com/iptables/)。
+访问http://localhost:8080/如果出现不了以下网页，说明是防火墙策略问题，[请参考](http://inslow.com/iptables)。
 ![tomcat](http://ww2.sinaimg.cn/mw690/9325ea4dgw1f05f4n79wvj20dw06t74s.jpg)
 ### 第③步MySQL的安装与配置
 安装MySQL命令：

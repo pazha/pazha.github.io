@@ -24,3 +24,14 @@ layout: home
     <div class="aside">
     </div>
 </div>
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?c63731d8badd4ad17fad85e966d82df8";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>

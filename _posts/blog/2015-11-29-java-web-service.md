@@ -81,3 +81,59 @@ description: 关于Linux+Tomcat+MySQL+Java的Web服务环境搭建
     java version "1.7.0_91"
     OpenJDK Runtime Environment (rhel-2.6.2.2.el6_7-x86_64 u91-b00)
     OpenJDK 64-Bit Server VM (build 24.91-b01, mixed mode)
+
+
+
+
+CentOS6.5系统自带Open JDK1.7、1.6和1.5，但OpenJDK部分内容与SUN JDK不兼容，因此打算重新安装SUN JDK1.7来开发。
+
+首先卸载系统自带的JDK:
+
+1. 通过rpm命令查看Open JDK具体版本信息
+
+    rpm -qa | grep java
+
+结果可能为
+
+    tzdata-java-2012c-1.el6.noarch
+    java-1.7.0-openjdk-1.7.0.45-1.45.1.11.1.el6.x86_64
+
+2. 通过rpm卸载JDK
+
+    rpm -e --nodeps tzdata-java-2012c-1.el6.noarch
+    rpm -e --nodeps java-1.7.0-openjdk-1.7.0.45-1.45.1.11.1.el6.x86_64
+
+此时已经卸载了Open JDK了。
+
+然后安装SUN公司JDK
+
+1. 下载tag.gz文件(http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+2. 复制到 /opt目录 下并解压
+
+    cp jdk-7u79-linux-x64.tar.gz /opt/
+    tar -zxvf jdk-7u79-linux-x64.tar.gz
+
+3. 配置全局环境变量
+在 /etc/profile文件 内追加以下内容
+
+# jdk7 settings
+JAVA_HOME=/opt/jdk1.7.0_79
+JRE_HOME=$JAVA_HOME/jre
+PATH=$PATH:$JAVA_HOME/bin:$JRE_HOME/bin
+CLASSPATH=:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar:$JRE_HOME/lib
+export JAVA_HOME JRE_HOME PATH CLASSPATH
+
+4.然后执行 source /etc/profile 使配置生效。
+5. 在 /sbin目录 下建立java的软链接
+此时我们在shell中输入java命令，将提示/usr/bin中找不到java命令，那是因为我们还没为$JAVA_HOME/bin/java在/sbin目录下建立软链接
+
+ln -s /opt/jdk1.7.0_67/bin/java /sbin/java
+
+最后查看Java版本，如果出现以下信息，说明安装成功
+
+[root@localhost ~]# java -version
+java version "1.7.0_80"
+Java(TM) SE Runtime Environment (build 1.7.0_80-b15)
+Java HotSpot(TM) 64-Bit Server VM (build 24.80-b11, mixed mode)
+
+至此，所以安装完成。

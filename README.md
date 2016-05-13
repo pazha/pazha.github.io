@@ -6,4 +6,4 @@
 * 感谢[伍燎](https://github.com/wuliao518/)。
 
 
-####这是以前在github上搭建的博客，现在已经使用独立空间了。[Pazha的博客](http://inslow.com)
+####这是以前在github上搭建的[博客](http://pazha.github.io)，现在已经使用独立空间了。[Pazha的博客](http://inslow.com)
